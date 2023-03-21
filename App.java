@@ -13,6 +13,7 @@ public static void main(String[] args) {
      //obj1.exercicio5();
      //obj1.exercicio6();
      //obj1.exercicio7();
-     obj1.exercicio8();
+     //obj1.exercicio8();
+     obj1.exercicio9();
   }
 }

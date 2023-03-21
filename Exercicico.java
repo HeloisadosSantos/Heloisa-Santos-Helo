@@ -124,6 +124,22 @@ public class Exercicico {
         System.out.println(" Seu saldo é Negativo");
       }
     }
- 
+
+    // Ler 3 valores (considere que não serão informados valores iguais) e escrever o maior deles. 
+    public void exercicio9() {
+      System.out.println("Insira tres valores quaisquer !");
+      int a = sc.nextInt();
+      int b = sc.nextInt();
+      int c = sc.nextInt();
+      if (a>b && a>c) {
+        System.out.println("Este foi maior valor digitado = " + (a));
+      } 
+      if (b>a && b>c ){
+        System.out.println("Este foi maior valor digitado = " + (b));
+      }
+      else {
+        System.out.println("Este foi maior valor digitado = " + (c));
+      }
+    }
     
 }
