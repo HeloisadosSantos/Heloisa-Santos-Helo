@@ -138,7 +138,7 @@ public class Exercicico {
         System.out.println("Este foi maior valor digitado = " + (b));
       }
       else {
-        System.out.println("Este foi maior valor digitado = " + (c));
+        System.out.println("Este foi maior valor digitado no momento = " + (c));
       }
     }
     
