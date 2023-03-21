@@ -78,4 +78,52 @@ public class Exercicico {
         System.out.println("Infeliz não temos disponivel no momento");
       }
      }
+
+// Ler um valor e escrever a mensagem É MAIOR QUE 10! se o valor lido for maior que 10, caso contrário escrever NÃO É MAIOR QUE 10! 
+     public void exercicio6(){
+
+     System.out.println("Digite um número");
+     int num = sc.nextInt();
+     if(num>=10){
+      System.out.println("É MAIOR QUE 10!");
+     }
+     else{
+      System.out.println("NÃO É MAIOR QUE 10!");
+     }
+
+     }
+
+    //  Ler o salário fixo e o valor das vendas efetuadas pelo vendedor de uma empresa. Sabendo-se que ele recebe uma comissão de 3% sobre o total das vendas até R$ 2.500,00 
+    //  mais 5% sobre o que ultrapassar este valor, calcular e escrever o seu salário total. 
+
+     public void exercicio7() {
+      System.out.println("Digite o seu salário para sabermos quanto sera sua comissão este mês");
+      int salário = sc.nextInt();
+      if (salário>2500) {
+        System.out.println("Você receberá 5% de comissão " + (salário*5/100)+salário);
+      } else {
+        System.out.println("Você receberá 3% de comissão " + ((salário*3/100)+salário));
+      }
+     }
+
+// Faça um algoritmo para ler: número da conta do cliente, saldo, débito e crédito. Após, calcular e escrever o saldo atual 
+// (saldo atual = saldo - débito + crédito). Também testar se saldo atual for maior ou igual a zero escrever a mensagem 'Saldo Positivo', 
+// senão escrever a mensagem 'Saldo Negativo'.
+
+    public void exercicio8() {
+      System.out.println("Insira o valor de 1 e 2 existente em sua conta. (1- debito 2- credito)");
+      double debito = sc.nextDouble();
+      double credito= sc.nextDouble();
+      System.out.println("Muito obrigada agora vamos somar para você!");
+      double saldoA;
+      double saldo;
+
+      if (debito>=0) {
+        System.out.println(" Seu saldo é Positivo " + (saldoA = - debito + credito));
+      } else {
+        System.out.println(" Seu saldo é Negativo");
+      }
+    }
+ 
+    
 }
